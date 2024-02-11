@@ -1,0 +1,30 @@
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore environment variables file (if applicable)
+.env
+
+# Ignore logs and debugging files (optional)
+logs/
+*.log
+
+# Ignore MongoDB data directory (if using MongoDB)
+/data/
+
+# Ignore compiled TypeScript files (if applicable)
+/dist/
+
+# Ignore any other build or output directories
+/build/
+/output/
+
+# Ignore any sensitive or configuration files
+config.json
+
+# Ignore any IDE or editor-specific files
+.vscode/
+.idea/
+
+# Ignore any npm or Yarn lock files
+package-lock.json
+yarn.lock
